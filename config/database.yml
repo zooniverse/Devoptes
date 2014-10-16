@@ -1,0 +1,16 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  user: panoptes
+  password: panoptes
+  host: panoptes
+  pool: 5
+  port: 5433
+
+development:
+  <<: *default
+  database: panoptes_development
+
+test:
+  <<: *default
+  database: panoptes_test
