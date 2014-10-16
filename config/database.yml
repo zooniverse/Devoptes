@@ -3,9 +3,9 @@ default: &default
   encoding: unicode
   user: panoptes
   password: panoptes
-  host: panoptes
+  host: postgres 
   pool: 5
-  port: 5433
+  port: 5432
 
 development:
   <<: *default
