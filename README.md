@@ -13,7 +13,7 @@ rails code.
 ## Usage
 
 Pretty simple `vagrant up` and navigate your browser to
-http://localhost:3000/.
+[http://localhost:3000/](http://localhost:3000/).
 
 ## License
 
